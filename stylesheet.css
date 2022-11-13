@@ -1,0 +1,94 @@
+.logo{
+  display: grid;
+  place-items: center;
+}
+/* Navbar container */
+.navbar {
+  overflow: hidden;
+  background-color: rgb(152, 151, 151);
+  font-family:'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+}
+/* Links inside the navbar */
+.navbar a {
+  float: left;
+  font-size: 20px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+/* The dropdown container */
+.dropdown {
+  float: right;
+  overflow: hidden;
+}
+/* Dropdown button */
+.dropdown .dropbtn {
+  font-size: 20px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit; /* Important for vertical align on mobile phones */
+  margin: 0; /* Important for vertical align on mobile phones */
+}
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: rgb(118, 115, 115);
+}
+/* Dropdown content*/
+.dropdown-content {
+  display: none;
+  position: absolute;
+  right: 0;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+/* Links inside the dropdown */
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+h1{
+  text-align: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+}
+.maincontent{
+  background-color: #ddd;
+  padding: 16px;
+  margin: 10px 0px;
+  border-style: solid;
+  border-color: black;
+  border-width: 2px;
+}
+.maincontent p, h4{
+  text-align: right;
+}
+
+.navbar2 {
+  overflow: hidden;
+  font-family:'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+}
+.navbar2 a {
+  float: left;
+  font-size: 16px;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  margin: 10px;
+  padding: 12px;
+  text-decoration: none;
+}
